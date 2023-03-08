@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background-color: cyan;
+background: url(images/mercedes.jpg.jpg);
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+display: flex;
+margin: 20px,30px;
+}
+.logo h1 span{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+color:orangered;
+}
+.item ul{
+    display: flex;
+    list-style: none;
+}
+.item ul li a {
+padding-left: 20px;
+font-size: larger;
+text-align: center;
+    cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(88, 225, 234);
+}
+.item ul li a:hover{
+    color:rgb(238, 161, 19);
+    text-decoration: underline;
+}
+.body{
+    width: 100%;
+    margin: 0px;
+    align-items: center;
+    height: 80vh;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+
+}
+.info h1{
+    font-weight: 200;
+    color: rgb(238, 234, 26);
+}
+.info{
+    color: #fff;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width:200px;
+    height:40px;
+    background:orange;
+    border: 1px solid orange;
+    margin: top 1px;
+    color:black;
+    border-right:none;
+    float:left;
+    font-size:16px;
+    padding: 10px;
+    border-bottom-left-radius:5px;
+    border-top-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border-top-right-radius:5px;
+}
+.btn{
+    width: 200px;
+    height: 30px;
+    background: orange;
+    border: 2px solid;
+    border-bottom-left-radius:5px;
+    border-top-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border-top-right-radius:5px;
+    margin-top: 10px;
+}
+.btn:focus{
+    outline:none;
+}
+.srch:focus{
+    outline:none;
+}
+.cn{
+    border: none;
+    width: 180px;
+    height: 40px;
+    background: chocolate;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cn a{
+    text-decoration: none;
+    transition: 3s ease;
+}
+.cn:hover{
+    background-color: aliceblue;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 300px;
+    left: 1250px;
+    border-radius: 10px;
+    padding:25px ;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 22px;
+    background-color: rgb(80, 221, 233);
+    border-radius: 18px;
+    margin: 10px;
+    padding: 2px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background-color: transparent;
+    border-bottom: 1px solid orange;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+  }
+.btn{
+    width: 240px;
+    height: 40px;
+    background-color: orange;
+    transition: o.4s;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: orange;
+    background: white;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form.link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.link{
+    text-align: center;
+}
+.form.link a{
+    text-decoration: none;
+    color: orange;
+    text-align: center;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icon a{
+ text-decoration: none;
+ padding-left: 14px;
+ padding-top: 5px;
+ font-size: 23px;
+}
+.icon ion-icon{
+    color:#fff;
+    font-size: 23px;
+    padding-top: 5px;
+    transition:0.3s ease;
+}
+.icon ion-icon:hover{
+    color: orange;
+}
